@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        box-sizing:border-box;
+    }
+    .blockslider{
+        width: 200px;
+       margin: 0 auto;
+    }
+    .slider{
+        background-image: url('./assets/img/music1.jpeg');
+        width: 100%;
+       padding-top:100%;
+       
+    }
+</style>
+<body>
+    <div class="blockslider">
+        <div class="slider"></div>
+    </div>
+    <div class="cu">
+        <div class="ong">
+            <div class="cha">
+                <!-- <button class="con">Click here</button>
+                <button class="con">Click here</button>
+                <button class="con">Click here</button>
+                <button class="con">Click here</button>
+                <button class="con">Click here</button>
+                <input type="range" name="" id="" value="67"> -->
+                <div class="chau">hâ</div>
+        </div>
+            
+        
+        </div>
+    </div>
+    <!-- <audio id="audio" autoplay src="./assets/music/music1.mp3"> -->
+        
+    </audio>
+    <script>
+        const a =document.querySelector('.blockslider')
+       const b = a.animate([{ transform : "rotate(360deg)" }],
+    {
+        duration:10000,
+        diteration: Infinity
+    })
+    b.pause()
+ const c = a.animate([{ transform : "rotate(360deg)" }],
+    {
+        duration:10000,
+        diteration: Infinity
+    })
+
+    // c.pause()
+        // const S_STORAGE = 1;
+        // JSON.PA
+        // const cons = document.querySelectorAll('.con')
+        // for(let i = 0; i < cons.length; i++){
+        //     cons[i].addEventListener('click', function(){
+        //         console.log(i)
+        //     })
+        // }
+        
+        // for (var i = 0;i<3;i++){
+            
+        //     console.log(i)
+        // }
+        // var windowWidth = window.innerWidth;
+        // prompt( window.innerWidth)
+
+        // var a = ()=> {
+        //     var b =1 ;
+        //     setTimeout(()=>{
+        //         console.log(b)
+        //     },1000)
+        // }
+         
+    </script>
+</body>
+</html>
